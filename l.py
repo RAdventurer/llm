@@ -7,7 +7,7 @@ from langchain import PromptTemplate, HuggingFaceHub, LLMChain
 
 # %%
 import os   
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "..."
 # %%
 prompt = PromptTemplate(        
     input_variables=["product"],
